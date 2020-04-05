@@ -1,0 +1,21 @@
+{
+  "name": "faceauthorization",
+  "version": "1.0.0",
+  "description": "Library build for face authorization in web applications",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wielqus/Wielqus-FaceAuthorization-Client"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakub Wielgus <Wielqus@gmail.com>",
+  "license": "Unlicense"
+}
