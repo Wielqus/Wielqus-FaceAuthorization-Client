@@ -14,8 +14,14 @@
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "author": "Jakub Wielgus <Wielqus@gmail.com>",
-  "license": "Unlicense"
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.2.7",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3"
+  }
 }
